@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Baby</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>❤️</text></svg>">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">For My Baby ❤️</a>
+            <div class="nav-links">
+                <a href="#story">Our Story</a>
+                <a href="#memories">Memories</a>
+                <a href="#reasons">Reasons</a>
+                <a href="#letter">Love Letter</a>
+                <a href="#secret">Secret</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">For <span class="highlight" id="gf-name">Miel</span></h1>
+                <p class="hero-subtitle">Every day with you is a new page in my favorite story book</p>
+                <div class="heart-pulse">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <p class="hero-message">Scroll down to discover why I love you</p>
+                <a href="#story" class="scroll-btn">
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Story Timeline -->
+    <section id="story" class="section story">
+        <div class="container">
+            <h2 class="section-title">Our Story</h2>
+            <p class="section-subtitle">The journey of us</p>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>First Met</h3>
+                        <p class="timeline-date">August 24, 2025</p>
+                        <p>
+                            We first met when we were both at our lowest, just a random girl and a random guy crossing paths at the LSG Office, never expecting
+                            that moment would bring us together, and never imagining I would find my future girlfriend and soon to be wife there.
+                        </p>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>First Date</h3>
+                        <p class="timeline-date">October 11, 2025</p>
+                        <p>
+                            Our very first date was at Jollibee. We even had a little tampuhan because I agreed to go without realizing there would be no transportation available. So, I borrowed our family tricycle just so we could still go.
+                            I was shy during our first date, and back then, I was only beginning to court you. But I will always count that as our first date, because that was when my emotions and love for you started to grow deeper.
+                        </p>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Became Official</h3>
+                        <p class="timeline-date">December 10, 2025</p>
+                        <p>The moment I never expected was when you finally made us official on December 4. Even though it happened through chat, my happiness was beyond words. When you made it official again,
+                           it made that moment even more special. December 10 became a day I will always treasure. That night, I couldn’t contain my excitement, I couldn’t even sleep because my heart was overflowing with kilig.</p>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Today & Forever</h3>
+                        <p class="timeline-date">Always</p>
+                        <p>Today, February 10, and for the rest of my life, I promise to keep loving you through every challenge and every storm. I promise never to leave your side, even when you feel like pushing yourself away. I will always support your dreams and goals,
+                            especially in your academics, and I will always be ready to lend a helping hand whenever you need me. I will always and forever love you, my Baby Miel.</p>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery -->
+    <section id="memories" class="section gallery">
+        <div class="container">
+            <h2 class="section-title">Our Memories</h2>
+            <p class="section-subtitle">Moments I'll cherish forever</p>
+            
+            <div class="gallery-container">
+                <div class="gallery-item">
+                    <img src="pics/p1.jpg" alt="Memory 1">
+                    <div class="gallery-overlay">
+                        <p>Our first date as a couple</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="pics/p3.jpg" alt="Memory 2">
+                    <div class="gallery-overlay">
+                        <p>That beautiful smile I love</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="pics/p4.jpg" alt="Memory 3">
+                    <div class="gallery-overlay">
+                        <p>Just us, being us</p>
+                    </div>
+                </div>
+            </div>
+            
+            <p class="gallery-note"></p>
+        </div>
+    </section>
+
+    <!-- Reasons I Love You -->
+    <section id="reasons" class="section reasons">
+        <div class="container">
+            <h2 class="section-title">Reasons I Love You</h2>
+            <p class="section-subtitle">Click the heart to discover a new reason</p>
+            
+            <div class="reasons-container">
+                <div class="reasons-display">
+                    <div class="reason-card">
+                        <p id="current-reason">Your smile lights up my world</p>
+                    </div>
+                </div>
+                
+                <button id="new-reason-btn" class="reason-btn">
+                    <i class="fas fa-heart"></i>
+                    <span>Give Me Another Reason</span>
+                </button>
+                
+                <div class="reasons-counter">
+                    <p>Reasons discovered: <span id="reason-count">1</span>/<span id="total-reasons">50</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Love Letter -->
+    <section id="letter" class="section letter">
+        <div class="container">
+            <h2 class="section-title">My Love Letter</h2>
+            <p class="section-subtitle">From my heart to yours</p>
+            
+            <div class="letter-container">
+                <div class="letter-content">
+                    <div class="letter-header">
+                        <p class="letter-date">Valentine's Day Febuary 14, <span id="current-year">2026</span></p>
+                        <p class="letter-to">My Baby <span class="highlight">Miel</span>,</p>
+                    </div>
+                    
+                    <div class="letter-body">
+                        <p>Happy 2nd Monthsarry babyy koo, this is my love letter para sayuu mwehhehe.</p>
+                        
+                        <p>Every moment with you feels like a gift I don't deserve but will always cherish. 
+                        From your laughter that fills a room to the way you look at me like I'm your whole world, 
+                        you've changed my life in the most beautiful way.</p>
+                        
+                        <p>I love how you can cheer me up when im at my lowest, the part na kaya mo akong mahalin kahit
+                            madalas is alam kong nag kukulang aku, sorry babyy for being makulit madalas
+                            dun ko kase na show love kuu hehe Iloveyouu so much baby and i will always be here 
+                            to support you kahit saan paman yan, pag may problem baby ko or may want rant andito me makikinig sayu
+                            pero syempre ang pinaka love na love kong reason sa baby ku is, ako yung pinili mo mahalin Iloveyou babyy
+                            thank you for choosing me, choosing to love me, and i will also always always love my babyy the same way you love me.
+                            </p>
+                        
+                        <p>And this website is just a small token of what's in my heart. Every line of code represents 
+                        a thought of you, every color represents a memory we share.</p>
+                        
+                        <p>No matter where life takes us, I promise to always choose you, to support you, 
+                        to laugh with you, and to love you more with each passing day I Love You Miel Elaine Leabres..</p>
+                        
+                        <p>Forever yours,</p>
+                        <p class="signature">Law</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Secret Message -->
+    <section id="secret" class="section secret">
+        <div class="container">
+            <h2 class="section-title">Secret Message</h2>
+            <p class="section-subtitle">For your eyes only</p>
+            
+            <div class="secret-container">
+                <div class="secret-box locked">
+                    <div class="secret-header">
+                        <i class="fas fa-lock"></i>
+                        <h3>Locked with Love</h3>
+                    </div>
+                    
+                    <p class="secret-instruction">Enter the day you first made it official (MMDDYYYY) to unlock:</p>
+                    
+                    <div class="secret-input">
+                        <input type="password" id="secret-password" placeholder="e.g., 02102026" maxlength="8">
+                        <button id="unlock-btn">Unlock</button>
+                    </div>
+                    
+                    <p class="secret-hint">Hint: The First Time we Talked with each other</p>
+                    
+                    <div id="secret-message" class="secret-message hidden">
+                        <h3>My Promise to You</h3>
+                        <p>I will always love you and never hurt you.</p>
+                        <p>Soon in the future, punta tayo sa mga countries na want mu baby
+                           that is may promise to you.</p>
+                        <p>And lastly this isn't a promise but a question, but Will you be my Valentine babyy.</p>
+                        <div class="secret-footer">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Countdown -->
+    <section class="section countdown">
+        <div class="container">
+            <h2 class="section-title">Counting Every Moment</h2>
+            <p class="section-subtitle">Until our next monthsarry</p>
+            
+            <div class="countdown-container">
+                <div class="countdown-item">
+                    <span id="days">365</span>
+                    <p>Days</p>
+                </div>
+                <div class="countdown-item">
+                    <span id="hours">23</span>
+                    <p>Hours</p>
+                </div>
+                <div class="countdown-item">
+                    <span id="minutes">59</span>
+                    <p>Minutes</p>
+                </div>
+                <div class="countdown-item">
+                    <span id="seconds">59</span>
+                    <p>Seconds</p>
+                </div>
+            </div>
+            
+            <p class="countdown-note">Every second with you is precious</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <h3>Made with <i class="fas fa-heart"></i> for you</h3>
+                <p>This website will always be here as a reminder of my love for you.</p>
+                <p>Refresh anytime you need a smile or want to remember how much you're loved.</p>
+                
+                <div class="footer-hearts">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-heart"></i>
+                </div>
+                
+                <p class="footer-love">I love you more than yesterday, less than tomorrow.</p>
+                <p class="footer-signature">Forever yours, [Your Name]</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
